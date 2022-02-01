@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- toDo: add favicon to images folder -->
+	      <!--Import Google Icon Font-->
+		  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<!-- toDo: Choose fonts -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet" /> -->
+
+		<!-- toDo: Determine font awesome use -->
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" /> -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		<title>Movie Instant Search Tool </title>
+	</head>
+	<body>
+		<nav class="grey darken-4"> 
+			<div class="nav-wrapper">
+			  <a href="#" class="brand-logo right">MIST</a>
+			  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="left-align material-icons">menu</i></a>
+			  <ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="#" id="about">ABOUT</a></li>
+				<li><a href="#" id="services">SERVICES</a></li>
+			  </ul>
+			</div>
+		  </nav>
+		<ul class="sidenav" id="mobile-nav">
+			<li>ABOUT</li>
+			<li>SERVICES</li>		
+		</ul>
+
+		<!-- MAIN SECTION START -->
+		<main>
+			<!-- SEARCH FORM SECTION START -->
+			<!-- class TBD, probably class "card" -->
+
+			
+			<div class="container">
+				<!-- card header -->
+					  <div class="card horizontal">
+						<div class="card-image white-text grey-darken-4">	
+						  <span class="card-title">About Us</span>
+						</div>
+						<div class="card-stacked">
+						<div class="card-content">
+							<h3 class="center-align">About Us</h3>
+						  <p  id="about" class=""> We wish to shed more light on the ever expansive cinematic world from a behind the curtain. To be exact, finding movies that meet requirements for tax credits, that are not only beneficial for the state giving them due to advantageous filming movies can be for not only the town but entire state, but also making sure the all those apart of the movie crew, such as musicians are allocated those benfits as well.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+				<div class="card horizontal">
+					  <div class="card-image white-text grey-darken-4">
+						<span class="card-title">Services</span>
+						</div>
+						<div class="card-stacked">
+							<div class="card-content">
+							<h3 class="center-align">Services</h3>
+						  <p>We know how hard it can be to find a movie with the all the infomation you need. It can almost be like navigating through mist, which can feel very fustrating. Try out our website in helping you find movies via query to make things on your end a little less tedious. We hope it makes one less hectic in your day. Enjoy path through the MIST without getting lost and hope to see you soon!</p>
+						</div>
+	
+					  </div>
+					</div>
+				  </div>
+
+				  <div class="row">
+					<form class="col s12">
+					  <div class="row">
+						  		<!-- Search-->
+						<div class="input-field col s6">
+						<form id="query-form" class="center-align">
+							<h2 class="flow-text center-align">Search by Movie Title</h2>
+						<label for="query" class=""></label>
+						<input type="text" name="query" id="query-input" autofocus="true">
+						<button class="btn grey darken-3 white-text btn-md" id="searchbtn"  type="submit">Search</button>
+						</form>
+					</div>
+					  </div>
+					  </div>
+					</form>
+				  </div>	
+				  <br></br>
+
+				<!--<h2 class="flow-text center-align">Search by Movie Title</h2>-->
+				<!-- `form` is the card body -->
+			<!--	<div class="center-align">
+				<form id="query-form" class="center-align">
+		
+						<label for="query" class=""></label>
+						<input type="text" name="query" id="query-input" autofocus="true">
+						<button class="btn grey darken-3 white-text btn-md" id="searchbtn"  type="submit">Search</button>
+				</form>
+			</div> -->
+				
+				<br></br>
+
+			</div>
+
+			<!-- SEARCH FORM SECTION END -->
+			<!-- MOVIE SEARCH RESULTS SECTION START -->
+			<div class="center-align flow-text">
+				<h5>Search Results Repo Search Term:</h5>  
+				<span id="movie-search-term"></span></div>
+			<div id="movies-container" class="search-results">
+				
+			<!-- MOVIE SEARCH RESULTS SECTION END -->
+		</main>
+
+		<br></br>
+
+        <footer class="page-footer grey darken-4">
+			<div class="container">
+			  <div class="row center-align">
+				<div class="col l12 s12">
+				  <p class="white-text">Thank you for using our services and we hope you found what you needed.</p>
+				  <a href="#" class="brand-logo">
+					<img style="width: 200px; height: 200px;" class="responsive img center-align" src="./assets/images/logo.png">	
+				</a>
+				  
+				<div class="footer-copyright">
+					© 2021 Copyright Text	
+				</div>
+					
+				</div>
+			   </div>
+			</div>
+		</footer>
+		<!-- MAIN SECTION END -->
+		<!-- JAVASCRIPT START-->
+		<!-- toDo: consider using async or defer? -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="./assets/js/script.js"></script>
+		<!-- JAVASCRIPT END -->
+	</body>
+</html>

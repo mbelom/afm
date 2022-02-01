@@ -1,0 +1,63 @@
+
+/* DEBUGGING/TESTING SECTION START 
+form * {
+    border: 2px solid rgb(28, 41, 31);
+}
+form {
+    border: 2px solid rgb(103, 112, 100);
+} */
+/*.movies.container input {
+    padding: 5px !important;
+    font-size:18px !important;
+    width: 90% !important;
+    border: #f4f4f4 3px solid !important
+
+}*/
+
+
+
+
+/* DEBUGGING/TESTING SECTION END */
+
+.nav-wrapper {
+    background-image:url('../images/misty-forest.jpg');
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-position: 80%;
+} 
+
+.brand-logo img {
+    height: 200px;
+    width: 200px ;
+    padding: 0%;
+    margin: 0%;
+  }
+.navbar-logo{
+    height: 50px;
+    width: 50px ;
+}
+
+  .white-text{
+      float: center;
+  }
+
+
+  .search-results{
+      grid-auto-rows: 1;
+  }
+
+
+  /*#footer{
+    background-image:url('../images/logo.png');
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-position: 80%;
+  }*/
